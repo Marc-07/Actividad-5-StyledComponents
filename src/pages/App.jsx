@@ -1,13 +1,19 @@
-import { useState } from 'react'
-import OrderSummary from '../components/OrderSummary/OrderSummary'
+import Main from "../components/Main"
+import "../styles/style.scss";
+import "../styles/style.css"
+
 
 function App() {
 
   return (
     <>
-      
 
-      <OrderSummary />
+      <div className="App">
+        <Main />
+      </div>
+      
+      
+  
     </>
   )
 }

@@ -1,0 +1,78 @@
+main {
+    
+    max-width: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: auto;
+    box-shadow: 0px 6px 31px -1px rgba(135, 153, 207, 0.3);
+  
+    .hero {
+      border-radius: 12px 12px 0 0;
+      width: 100%;
+    }
+  
+    h2 {
+      text-align: center;
+      line-height: 80px;
+      color: hsl(223, 47%, 23%);
+      font-weight: 900;
+    }
+  
+    p {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+      color: hsl(224, 23%, 55%);
+    }
+
+    .pricing {
+        display: flex;
+        align-items: center; 
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        background-color: hsl(225, 100%, 98%);
+        width: 85%;
+        border-radius: 10px;
+        padding: 10px 20px; 
+
+        .icon {
+            width: 50px; 
+            height: 50px; 
+            margin-right: 20px;
+          }
+          
+          .plan {
+            display: flex;
+            flex-direction: column;
+            margin-right: auto; 
+          }
+          
+          h3 {
+            font-size: 16px;
+            color: hsl(223, 47%, 23%);
+            margin: 0;
+          }
+          
+          .price {
+            color: hsl(224, 23%, 55%);
+            margin: 0;
+          }
+          
+          a {
+            color: hsl(245, 75%, 52%);
+            text-decoration: underline;
+            font-weight: 700;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: right;
+        }    
+    }
+      
+      
+}
+
